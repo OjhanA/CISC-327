@@ -1,0 +1,97 @@
+* {box-sizing: border-box;}
+
+body {
+      background-color: #3F2860; 
+      color: #3F2860; 
+      font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+      background-color: #9BC1C2;
+      background-image: url(images/lilyheader.jpg);
+      height: 150px;
+      background-position: right;
+      background-repeat: no-repeat;
+}
+
+h1 {
+      padding-top: 50px;
+      padding-left: 2em
+}
+
+nav {
+      font-weight: bold;
+      padding: 1em;
+      float: left;
+      width: 160px;
+}
+
+nav a {
+      text-decoration: none;
+      display: block;
+      text-align: center;
+      font-weight: bold;
+      border: outset;
+      border-color: #CCCCCC;
+      border-width: 3px;
+      padding: 1em;
+      margin-bottom: 1em;
+}
+
+.studio {
+      font-style: italic;
+}
+
+footer {
+      background-color: #9BC1C2;
+      font-size: small;
+      font-style: italic;
+      text-align: center;
+      padding: 1em;
+}
+
+#wrapper {
+      width: 80%;
+      margin-right: auto;
+      margin-left: auto;
+      background-color: #F5F5F5;
+      min-width: 1200px;
+      max-width: 1480px
+}              
+        
+main {
+      padding-left: 2em;
+      padding-right: 2em;
+      display: block;
+      margin-left: 170px;
+      padding-top: 1em;
+}
+
+nav a:link {
+      color: #3F2860;
+}
+
+nav a:visited {
+      color:#497777;
+}
+
+nav a:hover {
+      color: #A26100;
+      border: 3px inset #333333;
+}
+
+nav ul {
+      list-style-type: none;
+      padding-left: 0px;
+}
+
+.floatleft {
+      float: left;
+      margin-right: 4em;
+}
+
+.clear {
+      clear: both;
+}
+
+header, nav, main, footer {display: block;}
